@@ -1,31 +1,34 @@
-# **Real-time Chat Application - Portage de C vers Rust**
+# **Real-time Chat Application - Ported from C to Rust**
 
-Ce projet est un portage d'une application client-serveur écrite en C vers Rust.
+This project is a port of a client-server chat application originally written in C, now implemented in Rust.
 
 ---
 
-## **Commandes utilisées pour le test et la compilation**
+## **Commands for Testing and Compilation**
 
-### **Version C**
+### **C Version**
+```bash
+make           # Compile the application
+./server       # Start the server
+./client       # Start a client
 
-   make pour compiler
+# To run the server
+cargo run --bin server
 
-   ./server pour lancer le serveur
+# To run the client
+cargo run --bin client
 
-   ./client pour demarer un client
- 
-  ### **Version Rust**
-
-Pour le Serveur :
-
-    cargo run --bin server 
-
-Pour le client :
-
-    cargo run --bin client
-
-Nettoyage des fichiers générés :
-
+# To clean up generated files
 cargo clean
 
+### **Rust Version**
+
+# To run the server
+cargo run --bin server
+
+# To run the client
+cargo run --bin client
+
+# To clean up generated files
+cargo clean
 

@@ -11,18 +11,8 @@ This project is a port of a client-server chat application originally written in
 make           # Compile the application
 ./server       # Start the server
 ./client       # Start a client
-
-# To run the server
-cargo run --bin server
-
-# To run the client
-cargo run --bin client
-
-# To clean up generated files
-cargo clean
-
+```
 ### **Rust Version**
-
 # To run the server
 cargo run --bin server
 
